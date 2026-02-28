@@ -1,0 +1,63 @@
+# Python virtual environment
+.venv/
+venv/
+env/
+ENV/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Node modules
+node_modules/
+
+# Build outputs
+dist/
+build/
+.next/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# VS Code
+.vscode/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Java / Maven
+target/
+*.class
+*.jar
+*.war
+*.ear
+*.iml
+.mvn/
+
+# Uploads / Media (generated files)
+ML Model/Model1/static/uploads/*
+ML Model/Model1/static/output/*
+PotholeBackend/uploads/*
+
+# Keep folder structure
+!ML Model/Model1/static/uploads/.gitkeep
+!ML Model/Model1/static/output/.gitkeep
+!PotholeBackend/uploads/.gitkeep
+
+# AWS credentials
+Hotel_User_accessKeys.csv
