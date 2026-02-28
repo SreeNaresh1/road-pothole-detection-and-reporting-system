@@ -29,14 +29,13 @@ services:
         value: 3.11.0
 
   # ─────────────────────────────────────────
-  # 3. Spring Boot Backend  →  Web Service (Free)
+  # 3. Spring Boot Backend  →  Docker (Free)
   # ─────────────────────────────────────────
   - type: web
     name: pothole-backend
-    runtime: java
+    runtime: docker
     rootDir: PotholeManagement/PotholeBackend
-    buildCommand: ./mvnw clean package -DskipTests
-    startCommand: java -jar target/pothole-management-0.0.1-SNAPSHOT.jar
+    dockerfilePath: ./Dockerfile
     plan: free
     envVars:
       - key: SPRING_PROFILES_ACTIVE
