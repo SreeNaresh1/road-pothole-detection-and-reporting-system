@@ -70,8 +70,8 @@ npm run dev
 ```
 5. Access the application in your browser at:
 ```bash
-Local: http://localhost:5173/
-Network: Use the provided network URLs, e.g., http://192.168.0.105:5173/.
+Local: http://localhost:5174/
+Network: Use the provided network URLs, e.g., http://192.168.0.105:5174/.
 ```
 4. Start the React development server:
 ```bash
