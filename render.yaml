@@ -37,6 +37,7 @@ services:
     rootDir: PotholeManagement/PotholeBackend
     dockerfilePath: ./Dockerfile
     plan: free
+    port: 10000
     envVars:
       - key: SPRING_PROFILES_ACTIVE
         value: prod
