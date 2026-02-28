@@ -41,3 +41,9 @@ services:
     envVars:
       - key: SPRING_PROFILES_ACTIVE
         value: prod
+      - key: DB_URL
+        value: jdbc:mysql://localhost:3306/pothole
+      - key: DB_USERNAME
+        value: root
+      - key: DB_PASSWORD
+        value: astrosree
