@@ -1,0 +1,49 @@
+services:
+
+  # ─────────────────────────────────────────
+  # 1. React Frontend  →  Static Site (Free)
+  # ─────────────────────────────────────────
+  - type: web
+    name: pothole-frontend
+    runtime: static
+    rootDir: PotholeManagement/pothole-management-system
+    buildCommand: npm install && npm run build
+    staticPublishPath: ./dist
+    routes:
+      - type: rewrite
+        source: /*
+        destination: /index.html
+
+  # ─────────────────────────────────────────
+  # 2. Flask ML API  →  Web Service (Free)
+  # ─────────────────────────────────────────
+  - type: web
+    name: pothole-flask-ml
+    runtime: python
+    rootDir: ML Model/FlaskAWS
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn app:app --timeout 120 --workers 1
+    plan: free
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.11.0
+
+  # ─────────────────────────────────────────
+  # 3. Spring Boot Backend  →  Web Service (Free)
+  # ─────────────────────────────────────────
+  - type: web
+    name: pothole-backend
+    runtime: java
+    rootDir: PotholeManagement/PotholeBackend
+    buildCommand: ./mvnw clean package -DskipTests
+    startCommand: java -jar target/pothole-management-0.0.1-SNAPSHOT.jar
+    plan: free
+    envVars:
+      - key: SPRING_PROFILES_ACTIVE
+        value: prod
+      - key: DB_URL
+        sync: false
+      - key: DB_USERNAME
+        sync: false
+      - key: DB_PASSWORD
+        sync: false
