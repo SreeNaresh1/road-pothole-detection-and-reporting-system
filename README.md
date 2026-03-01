@@ -103,41 +103,10 @@ spring.jpa.hibernate.ddl-auto=update
 Use Vs-Code To Start The server
 ```
 
-## Screenshots
-
-| Screenshot | Description |
-|------------|-------------|
-| ![Screenshot (228)](https://github.com/user-attachments/assets/9c36b526-727b-44ad-b9fe-49eff17b6936) | Home Page |
-| ![Screenshot (229)](https://github.com/user-attachments/assets/7e4a716a-ce31-4b8a-a276-857c694ee6a2) | Road Sgements |
-| ![Screenshot (230)](https://github.com/user-attachments/assets/a31e8495-02c2-4793-8bce-a5276c7921a3) | All Pothole Locations |
-| ![Screenshot (231)](https://github.com/user-attachments/assets/2d75f837-8cdd-4da9-a82a-0446bec1b60d) | No Pothole are in 50M range that's Why it is in Green color |
-| ![Screenshot (232)](https://github.com/user-attachments/assets/b7e3d4a1-7601-4a1d-9301-49d112bb57f8) | Pothole is in 50M range that's Why it is in Red color |
-| ![Screenshot (238)](https://github.com/user-attachments/assets/495501c9-93f3-45bb-ba91-81b45ebc7c3c) | While Travelling |
-| ![Screenshot (243)](https://github.com/user-attachments/assets/3edf0f76-332e-4089-b5ad-9e606c1aca53) | Admin Dashboard |
-| ![Screenshot (244)](https://github.com/user-attachments/assets/6624dcf1-6315-47c3-b27b-06a45752b207) | Pothole Data |
-| ![Screenshot (245)](https://github.com/user-attachments/assets/3b6254ba-6295-48e3-ad77-e75c26e104a8) | Single Pothole Location When we click on "View On Map" |
-
-
-
-
 ## Demo
 You can access the file by clicking the link below:
 
 [View the File on Google Drive](https://drive.google.com/file/d/1jrn7okdW98Iro2vEkxm9cvSXRYzklbKy/view?usp=sharing)
-
-
-## 🚀 About Me
-I'm a full stack developer at Vishwakarma Institute of Technology, Pune currently pursuing B. Tech in Information technology. Being a computer passionate, find myself highly interested in domains of Web development, Application development. 
-
-In addition, I have worked on projects involving machine-learning as well as web development and I love to exploring various fields through projects.
-I have faith in "Consistently Learning" and always keep a learning attitude towards new thing/technologies. My aim is to enhance the skills I learned so far and always be a faithful to my work.
-## 🔗 Links
-[![Portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://khairepranav.onrender.com/)
-[![LinkedIn](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/pranav-khaire-java-developer/)
-[![Instagram](https://img.shields.io/badge/instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/pranav_khaire_70/)
-[![GitHub](https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Khaire7031)
-[![Resume](https://img.shields.io/badge/resume-000000?style=for-the-badge&logo=resume&logoColor=white)](https://example.com/your-resume-link)  
-
 
 
 ## License
